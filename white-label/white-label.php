@@ -139,6 +139,8 @@ h1:hover::after {
                 margin-top: 65px;
                 text-align: center;
             }
+
+            /* Log in button WP Admin */
             #wp-submit {
                 box-shadow: 0 0 15px -5px rgba(0,0,0,.5);
                 background: linear-gradient(161deg, rgba(23,229,224,1) 0%, rgba(7,135,132,1) 100%);
@@ -155,7 +157,10 @@ h1:hover::after {
                 box-shadow: 0 0 1px 0 rgba(0,0,0,.25), 0 0 5px -3px rgba(0,0,0,.1), 0 0 25px 0 rgb(0 0 0 / 10%);
                 border-radius: 10px;
             }
-          #login h1 a::after {
+          
+          /* Back-drop on WP Backend Login circle logo */
+
+            #login h1 a::after {
   content:'';
   height: 200px;
   width: 200px;
